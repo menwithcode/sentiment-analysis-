@@ -1,0 +1,13 @@
+[text input]
+     ↓
+[Tokenize]
+     ↓
+[Predict] (DistilBERT)
+     ↓
+[Fallback] (if confidence < 0.5 → zero-shot BART)
+     ↓
+[Save uncertain predictions]
+     ↓
+[Check & retrain if ≥10 uncertain samples]
+     ↓
+[Log + Print final output]
