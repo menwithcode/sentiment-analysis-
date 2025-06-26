@@ -1,0 +1,11 @@
+
+Where `label_indices` is a comma-separated list like `0,3,7`.
+
+---
+
+### 2. ⚙️ Install Required Libraries
+
+In the **first cell**, install all necessary dependencies:
+
+```python
+!pip install transformers datasets scikit-learn langgraph --quiet
